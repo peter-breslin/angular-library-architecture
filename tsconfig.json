@@ -23,6 +23,7 @@
       "dom"
     ],
     "paths": {
+      "ui-lib/*" : ["projects/ui-lib/*"],
       "ui-lib": [
         "dist/ui-lib/ui-lib",
         "dist/ui-lib"

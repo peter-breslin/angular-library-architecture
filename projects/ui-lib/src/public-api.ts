@@ -1,12 +1,13 @@
 /*
  * Public API Surface of ui-lib
+
+NB - Update tsconfig.json Paths with the below prior to add below references
+
+    "ui-lib/*" : ["projects/ui-lib/*"],
+
  */
 
-export * from './lib/lib-a/lib-a.module';
-export * from './lib/lib-a/a/a.component'
+export * from 'ui-lib/src/lib/lib-a'
+export * from 'ui-lib/src/lib/lib-b'
+export * from 'ui-lib/src/lib/lib-c'
 
-export * from './lib/lib-b/lib-b.module';
-export * from './lib/lib-b/b/b.component'
-
-export * from './lib/lib-c/lib-c.module';
-export * from './lib/lib-c/c/c.component'

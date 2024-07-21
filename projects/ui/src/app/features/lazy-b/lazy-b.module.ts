@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { LazyBRoutingModule } from './lazy-b-routing.module';
 import { LazyBComponent } from './lazy-b.component';
-import { LibBModule } from 'ui-lib';
+// import { LibBModule } from 'ui-lib';
 
 
 @NgModule({
@@ -12,8 +12,8 @@ import { LibBModule } from 'ui-lib';
   ],
   imports: [
     CommonModule,
-    LazyBRoutingModule,
-    LibBModule
+    LazyBRoutingModule
+    // LibBModule
   ]
 })
 export class LazyBModule { }
