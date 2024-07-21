@@ -1,15 +1,15 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AComponent } from './a/a.component';
-
-
+import { LibBModule } from 'ui-lib/src/lib/lib-b';
 
 @NgModule({
   declarations: [
     AComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    LibBModule
   ],
   exports :[AComponent]
 })
