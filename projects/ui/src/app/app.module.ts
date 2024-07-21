@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LibAModule } from 'ui-lib';
+
 
 @NgModule({
   declarations: [
@@ -11,8 +11,7 @@ import { LibAModule } from 'ui-lib';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    LibAModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

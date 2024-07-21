@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { LazyARoutingModule } from './lazy-a-routing.module';
 import { LazyAComponent } from './lazy-a.component';
-// import { LibAModule } from 'ui-lib';
+import { LibAModule } from 'ui-lib';
 
 
 @NgModule({
@@ -12,8 +12,8 @@ import { LazyAComponent } from './lazy-a.component';
   ],
   imports: [
     CommonModule,
-    LazyARoutingModule
-    // LibAModule
+    LazyARoutingModule,
+    LibAModule.forRoot({configuration : {configA:"UI config for module A"}})
   ]
 })
 export class LazyAModule { }

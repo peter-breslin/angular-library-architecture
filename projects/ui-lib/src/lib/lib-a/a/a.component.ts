@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lib-a',
@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AComponent implements OnInit {
 
-  constructor() { }
+  configA:string;
+
+  constructor(@Inject('config') public config:any) {
+
+    this.configA = config.configuration.configA
+  }
 
   ngOnInit(): void {
   }
