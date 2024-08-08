@@ -3,7 +3,7 @@
 Run `ng build` 
 Run `ng build  --project showcase --named-chunks --output-hashing none`
 
-This project highlights the best practice of using sub entries within Angular libraries to minimize the package sizes across eager and lazy loading especially when using common js libraries.
+This project highlights the best practice of using sub-entries within Angular libraries to minimize the package sizes across eager and lazy loading especially when using common js libraries.
 
 REF: https://www.youtube.com/watch?v=DJewg33FEa0 The best way to architect your angular libraries - Tomas Trajan
 
